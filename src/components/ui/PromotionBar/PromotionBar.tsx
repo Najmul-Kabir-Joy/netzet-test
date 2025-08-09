@@ -7,7 +7,7 @@ const PromotionBar: React.FC = () => {
       role="banner"
       aria-label="Promotional offer"
     >
-      <p className="text-center text-base font-primary font-extrabold text-white lg:flex lg:h-[26px] lg:items-center lg:justify-center lg:text-[1.375rem]">
+      <p className="text-center text-base font-primary font-extrabold text-text-primary lg:flex lg:h-[26px] lg:items-center lg:justify-center lg:text-[1.375rem]">
         <span className="text-secondary">🚀 FRESH BEGINNINGS SALE:</span>
         <span>&nbsp;</span>
         <span className="font-semibold">
