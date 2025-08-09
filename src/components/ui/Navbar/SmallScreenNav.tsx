@@ -52,7 +52,7 @@ const SmallScreenNav: React.FC = () => {
 
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
-        <div className="absolute top-full right-0 z-40 w-64 mt-2 mr-6">
+        <div className="absolute top-full right-0 z-[var(--z-dropdown)] w-64 mt-2 mr-6">
           <div className="bg-black bg-opacity-95 backdrop-blur-md rounded-lg shadow-lg border border-gray-800">
             <nav className="p-4 navigation">
               <ul className="flex flex-col gap-2 font-primary font-semibold text-lg text-text-muted navigation-items">
