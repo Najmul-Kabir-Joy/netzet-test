@@ -10,7 +10,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:custom": "jest --testPathPatterns=\"PromotionBar.test.tsx\" --coverage --collectCoverageFrom=\"src/components/ui/PromotionBar/PromotionBar.tsx\""
+    "test:custom": "jest --testPathPatterns=\"Navbar.test.tsx\" --coverage --collectCoverageFrom=\"src/components/ui/Navbar/Navbar.tsx\""
   },
   "dependencies": {
     "next": "15.4.6",
