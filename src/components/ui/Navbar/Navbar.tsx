@@ -4,7 +4,7 @@ import SmallScreenNav from './SmallScreenNav';
 
 const Navbar: React.FC = () => {
   return (
-    <section className="navbar relative z-10 mt-4 md:mt-[35px]">
+    <section className="navbar relative z-[var(--z-docked)] mt-4 md:mt-[35px]">
       {/* Desktop Navigation above md devices */}
       <LargeScreenNav />
       {/* Mobile Navigation md devices*/}
