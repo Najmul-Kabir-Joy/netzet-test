@@ -2,7 +2,6 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import MobileNav from '@/components/ui/Navbar/SmallScreenNav';
-import { NAV_ITEMS } from '@/components/ui/Navbar/navbar.constants';
 
 describe('MobileNav Component', () => {
   it('should render without crashing', () => {
