@@ -44,6 +44,14 @@ body {
   background: var(--gradient-promotion-bar);
 }
 
+.text-shadow-primary-glow {
+  text-shadow: 0px 4px 4px 0px #fc004e;
+}
+
+.cta-button-shadow {
+  box-shadow: var(--shadow-cta-button);
+}
+
 @media (max-width: 767px) {
   body {
     background-color: var(--color-bg-mobile);
