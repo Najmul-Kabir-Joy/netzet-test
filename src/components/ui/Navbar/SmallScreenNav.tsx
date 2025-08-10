@@ -29,21 +29,12 @@ const SmallScreenNav: React.FC = () => {
           aria-label="Toggle menu"
         >
           <div className="w-6 h-6 flex justify-center items-center">
-            {isMenuOpen ? (
-              <Image
-                src="/icons/close-icon.svg"
-                alt="Close menu"
-                width="20"
-                height="20"
-              />
-            ) : (
-              <Image
-                src="/icons/hamburger-icon.svg"
-                alt="Menu"
-                width="20"
-                height="12"
-              />
-            )}
+            <Image
+              src="/icons/hamburger-icon.svg"
+              alt="Menu"
+              width="20"
+              height="12"
+            />
           </div>
         </button>
       </div>
