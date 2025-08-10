@@ -8,7 +8,7 @@ const PromotionBar: React.FC = () => {
       aria-label="Promotional offer"
     >
       <p className="text-center text-base font-primary font-extrabold text-text-primary lg:flex lg:h-[26px] lg:items-center lg:justify-center lg:text-[1.375rem]">
-        <span className="text-secondary">🚀 FRESH BEGINNINGS SALE:</span>
+        <span className="text-secondary-light">🚀 FRESH BEGINNINGS SALE:</span>
         <span>&nbsp;</span>
         <span className="font-semibold">
           Extra 25% OFF, Limited Spots - start your journey today!
