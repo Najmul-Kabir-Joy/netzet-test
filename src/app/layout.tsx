@@ -31,6 +31,9 @@ export const metadata: Metadata = {
     'content creation',
     'content creator life',
   ],
+  icons: {
+    icon: '/fametonic-logo.svg',
+  },
 };
 
 export default function RootLayout({
@@ -40,9 +43,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/fametonic-logo.svg" />
-      </head>
       <body className={`${urbanist.variable} ${figtree.variable} antialiased`}>
         {children}
       </body>
