@@ -1,7 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import React, { useState } from 'react';
-import { NAV_ITEMS } from './navbar.constants';
 
 const SmallScreenNav: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -50,28 +48,7 @@ const SmallScreenNav: React.FC = () => {
         </button>
       </div>
 
-      {/* Mobile Menu Dropdown */}
-      {isMenuOpen && (
-        <div className="absolute top-full right-0 z-[var(--z-dropdown)] w-64 mt-2 mr-6">
-          <div className="bg-black bg-opacity-95 backdrop-blur-md rounded-lg shadow-lg border border-gray-800">
-            <nav className="p-4 navigation">
-              <ul className="flex flex-col gap-2 font-primary font-semibold text-lg text-text-muted navigation-items">
-                {NAV_ITEMS.map((item) => (
-                  <li className="navigation-item" key={item.key}>
-                    <Link
-                      href={item.href}
-                      onClick={() => setIsMenuOpen(false)}
-                      className="block py-3 px-4 rounded-md hover:text-text-primary hover:bg-gray-800"
-                    >
-                      {item.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          </div>
-        </div>
-      )}
+      {/* Mobile Menu Dropdown Will go here*/}
     </div>
   );
 };
