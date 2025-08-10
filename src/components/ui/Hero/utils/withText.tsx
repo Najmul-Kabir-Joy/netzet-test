@@ -21,6 +21,7 @@ function withText<P extends object>(
 
     const textElement = text ? (
       <p
+        data-testid="with-text"
         className={`text-text-primary text-xs font-normal mt-1 leading-4 ${textClassName}`}
       >
         {text}
