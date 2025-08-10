@@ -1,5 +1,6 @@
 'use client';
 
+import Hero from '@/components/ui/Hero/Hero';
 import Navbar from '@/components/ui/Navbar/Navbar';
 import PromotionBar from '@/components/ui/PromotionBar/PromotionBar';
 
@@ -9,6 +10,7 @@ export default function Home() {
       <PromotionBar />
       <div className="max-w-[var(--container-xl)] mx-auto">
         <Navbar />
+        <Hero />
       </div>
     </main>
   );
